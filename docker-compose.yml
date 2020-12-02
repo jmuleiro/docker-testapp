@@ -8,7 +8,7 @@ services:
     networks:
       - frontend
     ports:
-      - "3001:3001"
+      - "80:3001"
   mysql:
     image: mysql:5.7
     volumes:
